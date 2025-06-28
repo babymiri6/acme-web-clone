@@ -4,116 +4,139 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Acme web services</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <main class="heroPage">
-        <h1 class="WelcomeMessage">Welcome to Acme Web Solutions</h1>
+        <div id="overlay">
+            <div class="heroContent">
+                <h1>Welcome to Acme Web Solutions</h1>
 
-        <p class="tagline">Lorem ipsum dolor sit amet consectetur 
-            adipisicing elit. Quae asperiores, recusandae 
-            quod animi corrupti vel ex beatae fuga natus 
-            voluptatem fugit quam quos magnam repellat illo 
-            reiciendis dolorum perferendis quia?
-        </p>
+                <p class="tagline">Lorem ipsum dolor sit amet consectetur 
+                    adipisicing elit. Quae asperiores, recusandae 
+                    quod animi corrupti vel ex beatae fuga natus 
+                    voluptatem fugit.
+                </p>
 
-        <button class="readMore">Read More</button>
+                <button class="readMore">Read More</button>
+            </div>
+        </div>
     </main>
 
+
     <section class="webAndAppDev">
-        <h2>Web & Application Development</h2>
+        <div class = "webAndAppDevContent">
+            <h2 class="webAndAppDevTitle">Web & Application Development</h2>
 
-        <div class="leftText">
-            <p>Lorem ipsum dolor sit amet consectetur 
-                adipisicing elit. Odit eligendi recusandae 
-                voluptates doloribus, expedita omnis! Dolorem 
-                neque aut repudiandae nihil iusto.
-            </p>
-        </div> 
-
-        <div class="rightText">
-            <p>
-                Reprehenderit itaque assumenda eaque minus, 
-                tempore facere enim laborum soluta suscipit, 
-                deserunt molestiae maiores?
-            </p>
+            <div class="leftAndRight">
+                <p class="leftText">Lorem ipsum dolor sit amet consectetur 
+                    adipisicing elit. Odit eligendi recusandae 
+                    voluptates doloribus, expedita omnis! Dolorem 
+                    neque aut repudiandae nihil iusto.
+                </p>
+                
+                <p class="rightText">
+                    Reprehenderit itaque assumenda eaque minus, 
+                    tempore facere enim laborum soluta suscipit, 
+                    deserunt molestiae maiores?
+                </p>
+            </div>
         </div>
     </section>
 
     <!-- placing the services cards in one div for easy positioning -->
     <section class="services">
 
-        <div class="servicesCard">
-            <div class="image"></div>
+        <div class="servicesContainer">
+            <div class="servicesCard">
+                <div class="imageContainer">
+                    <img class="images" src="/images/webDevelopment.jpg" alt="">
+                </div>
 
-            <div class="description">
-                <h3>Web Development</h3>
+                <div class="description">
+                    <h3>Web Development</h3>
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing 
-                    elit. Deleniti amet eos architecto!
-                </p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing 
+                        elit. Deleniti amet eos architecto!
+                    </p>
+                </div>
             </div>
-        </div>
 
-        <div class="servicesCard">
-            <div class="image"></div>
+            <div class="servicesCard">
+                <div class="imageContainer">
+                    <img class="images" src="/images/mobileApplication.jpg" alt="">
+                </div>
 
-            <div class="description">
-                <h3>Mobile Applications</h3>
+                <div class="description">
+                    <h3>Mobile Applications</h3>
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing 
-                    elit. Deleniti amet eos architecto!
-                </p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing 
+                        elit. Deleniti amet eos architecto!
+                    </p>
+                </div>
             </div>
-        </div>
 
-        <div class="servicesCard">
-            <div class="image"></div>
+            <div class="servicesCard">
+                <div class="imageContainer">
+                    <img class="images" src="/images/digitalMarketing.jpg" alt="">
+                </div>
 
-            <div class="description">
-                <h3>Tech Marketing</h3>
+                <div class="description">
+                    <h3>Tech Marketing</h3>
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing 
-                    elit. Deleniti amet eos architecto!
-                </p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing 
+                        elit. Deleniti amet eos architecto!
+                    </p>
+                </div>
             </div>
         </div>
     </section>
 
     <section class="digitalNeeds">
-        <h2 id="digitalNeedsHeader">We handle all of your digital needs</h2>
+        <div class="digitalNeedsContainer">
+            <h2 id="digitalNeedsHeader">We handle all of your digital needs</h2>
 
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Aliquid necessitatibus labore voluptatum dignissimos maxime 
-            rem praesentium inventore. Sint.
-        </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Aliquid necessitatibus labore voluptatum dignissimos maxime 
+                rem praesentium inventore. Sint.
+            </p>
+        </div>
     </section>
 
     <section class="contactAndAbout">
-        <div class="contactUs">
-            <h2 id="contactUsHeader">Contact Us</h2>
+        <div class="contactUsContainer">
+            <div class="contactUsContent">
+                <h2 id="contactUsHeader">Contact Us</h2>
 
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                Vitae, pariatur nesciunt ea sed officia ratione iure enim 
-                fugit.
-            </p>
-            
-            <p>miriamephraim9@gmail.com</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                    Vitae, pariatur nesciunt ea sed officia ratione iure enim 
+                    fugit.
+                </p>
+                
+                <p>miriamephraim9@gmail.com</p>
+            </div>
         </div>
 
-        <div class="AboutUs">
-            <h2 id="AboutUsHeader">About Our Company</h2>
+        <div class="aboutUsContainer">
+            <div class="aboutUsContent">
+                <h2 id="aboutUsHeader">About Our Company</h2>
 
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                Vitae, pariatur nesciunt ea sed officia ratione iure enim 
-                fugit.
-            </p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                    Vitae, pariatur nesciunt ea sed officia ratione iure enim 
+                    fugit.
+                </p>
+            </div>
         </div>
     </section>
 
     <footer>
-        <h4>Acme Web Solutions</h4>
+        <div class="footer">
+            <div class="footerContent">
+                <h4>Acme Web Solutions</h4>
 
-        <p>Project By <a href="#">author name</a></p>
+                <p>Project By <a href="#">author name</a></p>
+            </div>
+        </div>
     </footer>
 
 </body>
