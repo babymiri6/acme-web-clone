@@ -198,6 +198,28 @@ button:hover{
     text-align: center;     /*keeps the  digital needs paragraph centered in the digital needs container*/
 }
 
+@media (max-width: 768px){
+    
+    .digitalNeeds {
+        padding: 30px 15px;
+    }
+    
+     .digitalNeedsContainer {
+        width: 90%;
+        gap: 15px;
+    }
+    
+    
+    
+    #digitalNeedsHeader {
+        font-size: 22px;
+    }
+    
+    .digitalNeeds p {
+        font-size: 16px;
+    }
+}
+
 .contactAndAbout{
     display: flex;
     flex-wrap: wrap;
