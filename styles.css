@@ -280,7 +280,7 @@ button:hover{
     
 }
 
-@media (max-width: 480px){
+@media (max-width: 400px){
     .footer {
         flex-direction: column;
         gap: 10px;
